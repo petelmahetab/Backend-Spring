@@ -1,0 +1,60 @@
+{
+	"name": "gkeep",
+	"displayName": "gkeep",
+	"description": "An extension which adds .gitkeep file to include blank folders for git add",
+	"version": "1.2.0",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Other"
+	],
+	"publisher": "HarshVandanaSharma",
+	"activationEvents": [
+		"onStartup"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.addGitKeep",
+				"title": "add git keep"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/asynchronousJavascriptor/gkeep"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "vscode-test"
+	},
+	"dependencies": {
+		"ignore": "^5.3.1"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"@types/vscode": "^1.60.0",
+		"@vscode/test-cli": "^0.0.9",
+		"@vscode/test-electron": "^2.3.9",
+		"eslint": "^8.57.0",
+		"typescript": "^5.4.5"
+	},
+	"__metadata": {
+		"id": "b03f143d-a63b-4351-a420-6b965c039775",
+		"publisherId": "ac2f6d56-6018-4ea6-aa1f-bfae738c552e",
+		"publisherDisplayName": "HarshVandanaSharma",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1735316957832,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

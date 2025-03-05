@@ -1,0 +1,39 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1705939308050
+	},
+	"additionalAccounts": [],
+	"activeAccounts": {},
+	"usage": true,
+	"analytics-uuid": "4cee12fb-7e4b-4c30-baaa-04f326d5765c",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "107091285328578770470",
+		"email": "patelmahetab9020@gmail.com",
+		"email_verified": true,
+		"at_hash": "gzZHPMKnt72CM5DLt58UlA",
+		"iat": 1705942716,
+		"exp": 1705946316
+	},
+	"tokens": {
+		"expires_at": 1705946315610,
+		"access_token": "ya29.a0AfB_byBYqQOjTMQOrtrDTZawu-xEDVD7W596gyIOlVuI-nqV4p3EAFl_gNenQlzjeU2NWI7alioI9wTbfabVKJcvDUaxjv-FuaBT6z6cr6w2PWecFFo88kUFkDaMRwd1nSMsyxDAv93-6nymdBgmwwIHhlQNVO18aQMIwEc8jgaCgYKAWUSARESFQHGX2Miuz-XmX3koOY_YczqJW96zw0177",
+		"expires_in": 3599,
+		"refresh_token": "1//0gaCqpQaL5Cp0CgYIARAAGBASNwF-L9IrskKrMk3jjISGxFkpaSctEfsWfYJFaLcjbB4xlMeL9-oumZW-6FTRgHNhSJG4BaKND4Y",
+		"scope": "https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ4YTYzYmM0NzY3Zjg1NTBhNTMyZGM2MzBjZjdlYjQ5ZmYzOTdlN2MiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA3MDkxMjg1MzI4NTc4NzcwNDcwIiwiZW1haWwiOiJwYXRlbG1haGV0YWI5MDIwQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiZ3paSFBNS250NzJDTTVETHQ1OFVsQSIsImlhdCI6MTcwNTk0MjcxNiwiZXhwIjoxNzA1OTQ2MzE2fQ.lmFEJfNFAixMtKvQ0aCKtnCEYSvHLUgi5f7oXlvSTk3QoISvOfkS1E7-TLjM5jm_VKgDXVmlSfJqFcRtfwbO69CKZppuS1xKWh3Vy47wZwWZdJoS3Cymzkkmetojw2YVwPEzsGNJz4nkMG9hiA1GHzRz1S1cJU1Ydv3AE9Ki6nyKjL2KVB_MB9_nls0gpGTGA9YF5yaWRq4qWbaMJ3dRyKguqEOPs5AfPnC7umbeol_jul_IhcOP-BqpE_fFaflT2rnLKPLdo4W4XadQ8Gw7QqT18GDPB4d8UPyWhxW9sMdWXrDHJPQunzZiYuS23Nu0lzuTx5XfQzcceI_vrpXQjw"
+	},
+	"activeProjects": {
+		"C:\\Users\\bilal\\OneDrive\\Desktop\\React Project": "netflix-clone-3e8e9"
+	}
+}

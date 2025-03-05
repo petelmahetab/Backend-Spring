@@ -10,15 +10,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @AllArgsConstructor
 @Document(collection = "api_models")
-public class ApiModel{
+public class ApiModel {
 
     @Id
-    private  String id;
-
+    private Long id;
 
     private String name;
     private String email;
-
     private String phone;
     private String referenceId;
 }

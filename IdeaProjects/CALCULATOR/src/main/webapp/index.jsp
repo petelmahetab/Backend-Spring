@@ -1,31 +1,30 @@
 <html>
-<body>
-<div style="display:flex;justify-content:center;align-items:center;height:100vh;">
-<h2 style="color:blue">Calculator app.!</h2>
-<form action="calculate" method="GET">
-    <table>
-    <tr>
-    <td>Enter Number.</td>
-    <td><input type="number" name="one"></td>
-    </tr>
-    <tr>
-        <td>Enter Number.</td>
-        <td><input type="number" name="two"></td>
-        </tr>
+<body style="background-color:black;color:white;">
+    <h2 style='color:white;text-align:center;'>Calculator App 2</h2>
+    <div style='display:flex;justify-content:center;align-items:center;height:80vh;'>
+    <form action="/CALCULATOR/calculate" method="GET">
 
-        <tr>
-            <td>Enter Number.</td>
-            <td><input type="text" name="ope"></td>
-            </tr>
 
+        <table>
             <tr>
-                <td>Enter Number.</td>
-                <td><input type="Submit" value="calculate"></td>
-                </tr>
-    </table>
-</form>
-
-
+                <td>Enter number 1</td>
+                <td> <input type="number " name="number1" /> </td>
+            </tr>
+            <tr>
+                <td>Enter number 2</td>
+                <td> <input type="number" name="number2" /> </td>
+            </tr>
+            <tr>
+                <td>Enter the operation</td>
+                <td> <input type="text" name="operation" /> </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="calculate" style="background-color:red; margin-left:50px;" />
+                </td>
+            </tr>
+        </table>
+    </form>
 </div>
 </body>
+
 </html>
